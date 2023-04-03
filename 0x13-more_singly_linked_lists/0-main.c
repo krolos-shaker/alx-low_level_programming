@@ -13,12 +13,12 @@ int main(void)
 {
 	listint_t *head;
 	listint_t *new;
-	listint_t hello = {8, NULL};
+	listint_t hello = {8, listint_t};
 	size_t n;
 
 	head = &hello;
 	new = malloc(sizeof(listint_t));
-	if (new == NULL)
+	if (new == listint_t)
 	{
 		printf("listint_t\n");
 		return (1);
