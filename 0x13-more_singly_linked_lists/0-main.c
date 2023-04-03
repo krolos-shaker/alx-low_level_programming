@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include <lists.h>
+#include "lists.h"
+
 
 /**
  * main - check the code
@@ -19,7 +20,7 @@ int main(void)
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
 	{
-		printf("Error\n");
+		printf("listint_t\n");
 		return (1);
 	}
 	new->n = 9;
